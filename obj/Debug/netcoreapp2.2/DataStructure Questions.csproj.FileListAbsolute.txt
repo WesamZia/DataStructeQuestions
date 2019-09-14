@@ -1,0 +1,11 @@
+F:\vs code Repo\DataStructure Questions\bin\Debug\netcoreapp2.2\DataStructure Questions.deps.json
+F:\vs code Repo\DataStructure Questions\bin\Debug\netcoreapp2.2\DataStructure Questions.runtimeconfig.json
+F:\vs code Repo\DataStructure Questions\bin\Debug\netcoreapp2.2\DataStructure Questions.runtimeconfig.dev.json
+F:\vs code Repo\DataStructure Questions\bin\Debug\netcoreapp2.2\DataStructure Questions.dll
+F:\vs code Repo\DataStructure Questions\bin\Debug\netcoreapp2.2\DataStructure Questions.pdb
+F:\vs code Repo\DataStructure Questions\obj\Debug\netcoreapp2.2\DataStructure Questions.csprojAssemblyReference.cache
+F:\vs code Repo\DataStructure Questions\obj\Debug\netcoreapp2.2\DataStructure Questions.csproj.CoreCompileInputs.cache
+F:\vs code Repo\DataStructure Questions\obj\Debug\netcoreapp2.2\DataStructure Questions.AssemblyInfoInputs.cache
+F:\vs code Repo\DataStructure Questions\obj\Debug\netcoreapp2.2\DataStructure Questions.AssemblyInfo.cs
+F:\vs code Repo\DataStructure Questions\obj\Debug\netcoreapp2.2\DataStructure Questions.dll
+F:\vs code Repo\DataStructure Questions\obj\Debug\netcoreapp2.2\DataStructure Questions.pdb
