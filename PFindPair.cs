@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 class PFindPair
 {
-    static void Main(string[] args)
+    static public void run()
     {
 
         int[] randomNumbers = new int[] { 1, 9, 7, 11, 4, 8, 5, 2, 22, 3, 4, 6, 10 };
@@ -32,7 +32,6 @@ class PFindPair
             quickSort(arr, left, pi - 1);
             quickSort(arr, pi + 1, right);
 
-             quickSort(arr, pi + 1, right);
         }
 
     }
