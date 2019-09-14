@@ -31,6 +31,8 @@ class PFindPair
 
             quickSort(arr, left, pi - 1);
             quickSort(arr, pi + 1, right);
+
+             quickSort(arr, pi + 1, right);
         }
 
     }
