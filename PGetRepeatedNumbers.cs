@@ -9,6 +9,11 @@
 
             Console.WriteLine("size  = {0}", size);
 
+                 int[] arr1 = new int[] {1,2,3};
+                 int[] arr2 = new int[] {1,2};
+
+            PSumArrayElementWise.Process(arr1,arr2);
+
             GetRepeatedNumbers(numbersList, size);
         }
 
