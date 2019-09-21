@@ -5,3 +5,8 @@ that i hope to help programmers in preparing for their technical interview, or j
 if any one out there enjoys solving such questions as a hobby like me . 
 
 I have used clean code princeble and C# coding standards while doing so and provided some unit test so i could practice the right coding procedures as an example as well .
+
+
+# LICENSE
+
+This project is licensed under the MIT License.
