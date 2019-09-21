@@ -1,6 +1,6 @@
 public class PIsPalindrome
 {
-    public static bool Process(string text)
+    public bool Process(string text)
     {
         string firstPart = text.Substring(0, text.Length / 2);
         char[] arr = text.ToCharArray();
