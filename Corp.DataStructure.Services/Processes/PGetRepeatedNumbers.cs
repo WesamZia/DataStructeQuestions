@@ -1,8 +1,8 @@
 using System;
 
-public class GetRepeatedNumbers
+public class PGetRepeatedNumbers
 {
-    static void process(int[] arr, int size)
+    public void process(int[] arr, int size)
     {
         int i;
         int[] count = new int[size];
