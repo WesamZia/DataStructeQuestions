@@ -11,7 +11,6 @@ public interface IQuestionService
     bool IsPalindrome(string text);
     [OperationContract]
     public void GetRepeatedNumbers(int[] arr, int size);
-
     [OperationContract]
     public void SumArrayElementWise(List<int> a, List<int> b);
 
