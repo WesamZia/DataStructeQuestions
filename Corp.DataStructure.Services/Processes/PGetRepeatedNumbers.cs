@@ -9,6 +9,7 @@ public class PGetRepeatedNumbers
 
         Console.WriteLine("the repeated numbers are :");
 
+
         for (i = 0; i < size; i++)
         {
             if (count[arr[i]] == 1)

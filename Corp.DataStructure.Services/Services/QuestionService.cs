@@ -25,5 +25,18 @@ public class QuestionService : IQuestionService
 
         _service.add(a,b);
     }
+    public int ConsecutiveArray(int[] numbers)
+    {
+        PConsecutiveArray _service = new PConsecutiveArray();
+
+        return _service.Process(numbers);
+    }
+
+    public int FindMissingElements(int[] numbers)
+    {
+        PFindMissingElements _service = new PFindMissingElements();
+
+        return _service.Process(numbers);
+    }
 
 }

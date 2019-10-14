@@ -10,8 +10,12 @@ public interface IQuestionService
     [OperationContract]
     bool IsPalindrome(string text);
     [OperationContract]
-    public void GetRepeatedNumbers(int[] arr, int size);
+    void GetRepeatedNumbers(int[] arr, int size);
     [OperationContract]
-    public void SumArrayElementWise(List<int> a, List<int> b);
+    void SumArrayElementWise(List<int> a, List<int> b);
+    [OperationContract]
+    int ConsecutiveArray(int[] numbers);
+    [OperationContract]
+    int FindMissingElements(int[] numbers);
 
 }
