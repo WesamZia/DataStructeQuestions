@@ -7,7 +7,7 @@ if any one out there enjoys solving such questions as a hobby like me .
 i will be useing clean code princeble and C# coding standards for the code , N-tier for the soultion architicture , while doing so with some unit test so i could practice the right coding procedures as an example as well in this project.
 
 # Prerequisites
-.Net core 
+.Net core 3.0.100
 
 # LICENSE
  
