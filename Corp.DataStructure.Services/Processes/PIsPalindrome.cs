@@ -13,7 +13,8 @@ public class PIsPalindrome
             arr[arr.Length - i - 1] = temp;
         }
 
-        // take the other part of the now reversed text and compare it 
+        // take the other part half of the now reversed text and compare it 
+        
         string temp2 = new string(arr);
         string secoundPart = temp2.Substring(0, arr.Length / 2);
 

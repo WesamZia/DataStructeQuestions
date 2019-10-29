@@ -17,5 +17,7 @@ public interface IQuestionService
     int ConsecutiveArray(int[] numbers);
     [OperationContract]
     int FindMissingElements(int[] numbers);
+    [OperationContract]
+    void PFindPrimeNumbers(int[] numbersList);
 
 }

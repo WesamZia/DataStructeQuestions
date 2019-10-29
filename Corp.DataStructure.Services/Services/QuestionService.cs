@@ -3,27 +3,27 @@ public class QuestionService : IQuestionService
 {
     public bool IsPalindrome(string text)
     {
-       PIsPalindrome _service = new PIsPalindrome();
-       return _service.Process(text);
+        PIsPalindrome _service = new PIsPalindrome();
+        return _service.Process(text);
     }
-    public void FindPair(int[] numbersList,int sum)
+    public void FindPair(int[] numbersList, int sum)
     {
         PFindPair _service = new PFindPair();
 
-        _service.process(numbersList,sum);
+        _service.process(numbersList, sum);
 
     }
     public void GetRepeatedNumbers(int[] arr, int size)
     {
         PGetRepeatedNumbers _service = new PGetRepeatedNumbers();
 
-        _service.process( arr, size);
+        _service.process(arr, size);
     }
     public void SumArrayElementWise(List<int> a, List<int> b)
     {
         PSumArrayElementWise _service = new PSumArrayElementWise();
 
-        _service.add(a,b);
+        _service.add(a, b);
     }
     public int ConsecutiveArray(int[] numbers)
     {
@@ -37,6 +37,13 @@ public class QuestionService : IQuestionService
         PFindMissingElements _service = new PFindMissingElements();
 
         return _service.Process(numbers);
+    }
+
+    public void PFindPrimeNumbers(int[] numbersList)
+    {
+        PFindPrimeNumbers _service = new PFindPrimeNumbers();
+        _service.Process(numbersList);
+
     }
 
 }
