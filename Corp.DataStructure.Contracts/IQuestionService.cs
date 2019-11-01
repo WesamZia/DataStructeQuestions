@@ -18,6 +18,8 @@ public interface IQuestionService
     [OperationContract]
     int FindMissingElements(int[] numbers);
     [OperationContract]
-    void PFindPrimeNumbers(int[] numbersList);
+    void FindPrimeNumbers(int[] numbersList);
+     [OperationContract]
+     bool ContainsRedundancy(int[] numbersList);
 
 }

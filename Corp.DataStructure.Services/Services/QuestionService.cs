@@ -39,11 +39,18 @@ public class QuestionService : IQuestionService
         return _service.Process(numbers);
     }
 
-    public void PFindPrimeNumbers(int[] numbersList)
+    public void FindPrimeNumbers(int[] numbersList)
     {
         PFindPrimeNumbers _service = new PFindPrimeNumbers();
         _service.Process(numbersList);
 
     }
+
+    public bool ContainsRedundancy(int[] numbersList)
+    {
+        PContainsRedundancy _service = new PContainsRedundancy();
+        return _service.Process(numbersList);
+    }
+
 
 }
