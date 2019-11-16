@@ -5,8 +5,8 @@ public class PFindPair
 {
     public void process(int[] numbersList,int sum)
     {
-
-        int[] randomNumbers = new int[] { 1, 9, 7, 11, 4, 8, 5, 2, 22, 3, 4, 6, 10 };
+        // find pairs that sums up to n
+        var randomNumbers = new int[] { 1, 9, 7, 11, 4, 8, 5, 2, 22, 3, 4, 6, 10 };
         int left = 0;
         int right = randomNumbers.Length - 1;
         sum = 13;
